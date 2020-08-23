@@ -10,3 +10,7 @@ ports:
 tasks:
   - init: echo 'init script' # runs during prebuild
     command: echo 'start script'
+
+vscode:
+  extensions:
+    - mongodb.mongodb-vscode@0.1.1:YxL4c1szW0z9jpy6o32YLg==
