@@ -1,1 +1,2 @@
 db.student.insertOne({name:"Maria dos Anjos"})
+db.student.insertMany([{name:"Marco Antonio",subject:"Matematica",type:"Trabalho Pratico",value:15.4},{name:"Ana Maria Silva",subject:"Portugues",type:"Prova Final",value:23.8}])
